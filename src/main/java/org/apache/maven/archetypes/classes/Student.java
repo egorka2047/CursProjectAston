@@ -1,6 +1,6 @@
 package org.apache.maven.archetypes.classes;
 
-public class Student implements Comparable<Student>, AbstractModel<Student> {
+public class Student extends AbstractModel<Student> {
     private Integer groupNumber;
     private Double avgGrade;
     private Integer gradeBookNumber;

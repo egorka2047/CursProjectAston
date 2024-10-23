@@ -1,6 +1,6 @@
 package org.apache.maven.archetypes.classes;
 
-public class User implements Comparable<User>, AbstractModel<User>  {
+public class User extends AbstractModel<User> {
     private String name;
     private String email;
     private String password;
