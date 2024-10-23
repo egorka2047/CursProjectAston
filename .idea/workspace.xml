@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc9eaa1b-0958-4fce-a4a2-3a9265fec3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/sort/NaturalSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/AbstractModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/AbstractModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/AbstractModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/Bus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/sort/NaturalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/sort/NaturalSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -54,6 +53,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/eshpa/OneDrive/Документы/курсы/astonTestProject&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/eshpa/IdeaProjects/CursProjectAston/src/main/java/org/apache/maven/archetypes/Main.java&quot;
   }
 }</component>
@@ -86,7 +86,9 @@
       <option name="presentableId" value="Default" />
       <updated>1729618093655</updated>
       <workItem from="1729670401715" duration="297000" />
-      <workItem from="1729670724177" duration="3418000" />
+      <workItem from="1729670724177" duration="5435000" />
+      <workItem from="1729677194977" duration="536000" />
+      <workItem from="1729678250234" duration="21375000" />
     </task>
     <servers />
   </component>
@@ -98,7 +100,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/feature_aldem2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
