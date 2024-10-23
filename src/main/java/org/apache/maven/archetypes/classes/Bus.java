@@ -1,6 +1,6 @@
 package org.apache.maven.archetypes.classes;
 
-public class Bus implements AbstractModel<Bus>, Comparable<Bus> {
+public class Bus extends AbstractModel<Bus> {
     private Integer route;
     private String model;
     private Integer mileage;

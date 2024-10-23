@@ -1,5 +1,8 @@
 package org.apache.maven.archetypes.classes;
 
-public interface AbstractModel<T> {
-    int compareTo(T o);
+public abstract class AbstractModel<T> implements Comparable<T>{
+    @Override
+    public int compareTo(T o) {
+        return 0;
+    }
 }
