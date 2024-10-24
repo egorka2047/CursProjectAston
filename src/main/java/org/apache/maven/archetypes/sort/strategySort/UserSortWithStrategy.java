@@ -3,6 +3,7 @@ package org.apache.maven.archetypes.sort.strategySort;
 import org.apache.maven.archetypes.classes.User;
 import java.util.List;
 
+/**  Сортировка с использованием Стратегии добавлена в экспериментальных целях (пользоваться обычный - class NaturalSort) **/
 public class UserSortWithStrategy implements SortWithStrategy<User> {
     @Override
     public void strategySort(List<User> list) {

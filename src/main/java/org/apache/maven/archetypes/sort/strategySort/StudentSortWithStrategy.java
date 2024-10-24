@@ -3,7 +3,8 @@ package org.apache.maven.archetypes.sort.strategySort;
 import org.apache.maven.archetypes.classes.Student;
 import java.util.List;
 
-public class StudentSotWithStrategy implements SortWithStrategy<Student> {
+/**  Сортировка с использованием Стратегии добавлена в экспериментальных целях (пользоваться обычный - class NaturalSort) **/
+public class StudentSortWithStrategy implements SortWithStrategy<Student> {
     @Override
     public void strategySort(List<Student> list) {
         for (int i = 0; i < list.size(); i++) {
