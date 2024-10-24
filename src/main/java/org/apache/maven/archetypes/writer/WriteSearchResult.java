@@ -7,9 +7,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
-public class SortedDataWriter extends AbstractFileWriter {
+public class WriteSearchResult extends AbstractFileWriter{
 
-    void write(List<? extends AbstractModel<?>> sortedList, String sotrName) {
+    void write(List<? extends AbstractModel<?>> sortedList, Integer foundIndex) {
         String[] classNameArr = sortedList.getFirst().getClass().toString().split("\\.");
         String className = classNameArr[classNameArr.length-1];
         this.fileName = className + "Sorted.txt";
@@ -20,12 +20,16 @@ public class SortedDataWriter extends AbstractFileWriter {
                             Дата и время сохранения: %s
                             Тип объектов: %s
                             Количество объектов: %d
-                            Метод сортировки: %s
+                            Метод сортировки: NaturalSort
                             """
-                    ,DateTimeGetter.getDataTime(), className, sortedList.size(),sotrName));
+                    ,DateTimeGetter.getDataTime(), className, sortedList.size()));
+            if (foundIndex == -1) dataWriter.write("Искомый объект не найден\n");
             for(int i = 0; i < sortedList.size(); i++){
                 dataWriter.write(String.format("%d) ", i+1));
                 dataWriter.write(sortedList.get(i).toString());
+                if (i == foundIndex){
+                    dataWriter.write("  <============== Искомый объект ============");
+                }
                 dataWriter.write("\n");
             }
             dataWriter.write(DelimeterPrinter.printDelimeter('=',50,2));

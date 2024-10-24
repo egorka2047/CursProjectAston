@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Scanner;
 
 
-public class UserDataWriter extends AbstractWriter{
+public class UserDataWriter extends AbstractFileWriter implements ChoosCatalog {
 
     void write(List<? extends AbstractModel<?>> list) {
         try (FileWriter dataWriter = new FileWriter(this.getFile())){
@@ -20,7 +20,8 @@ public class UserDataWriter extends AbstractWriter{
                 dataWriter.write(o.toString());
                 dataWriter.write("\n");
             }
-        //До исключение дело не дойдёт, поскольку в методах setCatalog и setFileName (скрыты в getFile) требуется, чтобы каталог сущестовал
+        //До исключение дело не дойдёт, поскольку в методах setCatalog и setFileName требуется, чтобы каталог сущестовал,
+        //в него можно было записывать файлы
         //и имя файла было не занято
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -30,7 +31,7 @@ public class UserDataWriter extends AbstractWriter{
     public void setFieName(){
         if (catalog == null){
             System.out.println("Сначала необходимо выбрать каталог для сохранения!");
-            this.setCatalog();
+            setCatalog(this);
         }
         String fileName;
         Scanner sc = new Scanner(System.in);
@@ -44,14 +45,10 @@ public class UserDataWriter extends AbstractWriter{
                 break;
             }
         }
-        this.file = new File(catalog +"\\" + fileName);
-
     }
-    public File getFile() {
-        if (file != null) return file;
-        else {
+    @Override
+    public void setFile() {
             this.setFieName();
-            return this.file;
-        }
+            this.file = new File(catalog +"\\" + fileName);
     }
 }
