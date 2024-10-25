@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc9eaa1b-0958-4fce-a4a2-3a9265fec3de" name="Changes" comment="Работает заполнение">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/CastomObjectArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/CastomObjectArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ExitProg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ExitProg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/FillFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/FillFromFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/FillStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/FillStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ManualFill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ManualFill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/RandomFill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/RandomFill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ReadFile/CastomFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ReadFile/CastomFileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ReadFile/ChoiceCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ReadFile/ChoiceCatalog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ReadFile/ChoiceFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ReadFile/ChoiceFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/Selectable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/Selectable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/UserInputInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/UserInputInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentSorted.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/testMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/writer/testMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2Bys.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testBus.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testUserData.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +36,9 @@
     &quot;assignee&quot;: &quot;UnderAlex59&quot;
   }
 }</component>
+  <component name="GitRewordedCommitMessages">
+    <option name="onto" value="cdb048910b09ca02eb2c33377fe82b5a09c1d139" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/egorka2047/CursProjectAston.git&quot;,
@@ -51,6 +47,9 @@
 }</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -61,22 +60,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.org.apache.maven.archetypes.writer.testMain.executor": "Run",
-    "Application.testMain.executor": "Run",
-    "Maven.maven-archetype-quickstart [clean].executor": "Run",
-    "Maven.maven-archetype-quickstart [package].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature__Zverev__Al",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/eshpa/OneDrive/Документы/курсы/astonTestProject",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/eshpa/IdeaProjects/CursProjectAston/src/main/java/org/apache/maven/archetypes/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.apache.maven.archetypes.writer.testMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testMain.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.maven-archetype-quickstart [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.maven-archetype-quickstart [package].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature__Zverev__Al&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/eshpa/OneDrive/Документы/курсы/astonTestProject&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/eshpa/IdeaProjects/CursProjectAston/src/main/java/org/apache/maven/archetypes/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.apache.maven.archetypes.Main" />
