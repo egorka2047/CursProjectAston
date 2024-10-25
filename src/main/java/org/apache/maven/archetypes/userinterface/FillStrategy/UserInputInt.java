@@ -11,7 +11,7 @@ public class UserInputInt {
             if (scanner.hasNextInt()) return scanner.nextInt();
             else{
                 scanner.nextLine();
-                System.out.println("введите числовое значение команды");
+                System.out.print("введите числовое значение команды: ");
             }
         }
     }

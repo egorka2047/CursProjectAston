@@ -3,6 +3,7 @@ package org.apache.maven.archetypes.writer;
 import org.apache.maven.archetypes.classes.AbstractModel;
 import org.apache.maven.archetypes.classes.Bus;
 import org.apache.maven.archetypes.classes.Student;
+import org.apache.maven.archetypes.classes.User;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -22,9 +23,13 @@ public class testMain {
         Student std1 = Student.newStudentBuilder().setAvgGrade(1d).setGradeBookNumber(1).setGroupNumber(1).build();
         Student std2 = Student.newStudentBuilder().setAvgGrade(2d).setGradeBookNumber(2).setGroupNumber(2).build();
         Student std3 = Student.newStudentBuilder().setAvgGrade(3d).setGradeBookNumber(3).setGroupNumber(3).build();
-        List<Student> studentList = new ArrayList<>();
-        Collections.addAll(studentList, std1, std2, std3);
-        userDataWriter.write(busList);
+
+        User user1 = User.newUserBuilder().setEmail("@gmail.com").setName("Igot").setPassword("132465").build();
+        User user2 = User.newUserBuilder().setEmail("@yandex.ru").setName("Sasha").setPassword("7986254").build();
+        User user3 = User.newUserBuilder().setEmail("@mail.ru").setName("Andrew").setPassword("256426").build();
+        List<User> uderList = new ArrayList<>();
+        Collections.addAll(uderList, user1, user2, user3);
+        userDataWriter.write(uderList);
 //        sortedDataWriter.write(studentList, "SpecialSort");
 //        writeSearchResult.write(studentList, 2);
 

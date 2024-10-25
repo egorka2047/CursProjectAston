@@ -6,7 +6,6 @@ import org.apache.maven.archetypes.userinterface.FillStrategy.ReadFile.ChoiceCat
 import org.apache.maven.archetypes.userinterface.FillStrategy.ReadFile.ChoiceFile;
 import org.apache.maven.archetypes.userinterface.FillStrategy.ReadFile.ValidFileFinder;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class FillFromFile extends FillStrategy{

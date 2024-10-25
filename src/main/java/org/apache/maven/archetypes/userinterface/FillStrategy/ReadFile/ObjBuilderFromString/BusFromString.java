@@ -25,7 +25,7 @@ public class BusFromString implements ObjBuildFromString<Bus> {
         String[] splitStr = obj.split(" ");
         route = new Scanner(splitStr[3].replace(",", "")).nextInt();
         model = new Scanner(splitStr[5].replace(",", "")).nextLine() ;
-        mileage =new Scanner(splitStr[7]).nextInt();
+        mileage = new Scanner(splitStr[7]).nextInt();
 
         return Bus.newBusBuilder().setRoute(route).setModel(model).setMileage(mileage).build();
     }

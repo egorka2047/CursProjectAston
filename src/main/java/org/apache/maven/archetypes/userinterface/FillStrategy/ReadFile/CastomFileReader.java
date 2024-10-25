@@ -31,15 +31,17 @@ public class CastomFileReader {
             Optional<? extends ObjBuildFromString> objBuilderOpt = availableObjBuilder.stream().filter(el -> el.getObjClass().equals(objClass)).findFirst();
             if (objBuilderOpt.isPresent()){
                 ObjBuildFromString<? extends AbstractModel<?>> objBuilder = objBuilderOpt.get();
-                for (int i = 0; i < numObj; i++) {
-                    userObjectList.add(objBuilder.buildObj(bufferedReader.readLine()));
-                }
+                String stringObj;
+                while ((stringObj = bufferedReader.readLine()) != null)
+                    userObjectList.add(objBuilder.buildObj(stringObj));
             }
             else throw new IOException("Файл не подходит для считывания данных");
         }
         catch (IOException ex){
             System.out.println(ex.getMessage());
-
+        }
+        catch (RuntimeException ex){
+            System.out.println("Некорректные данные в файле");
         }
     }
 }
