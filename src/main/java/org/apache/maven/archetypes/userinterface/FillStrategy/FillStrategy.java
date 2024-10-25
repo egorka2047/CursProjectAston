@@ -14,7 +14,7 @@ public abstract class FillStrategy implements  Comparable<FillStrategy>, Selecta
         this.fillStrategyCommand = fillStrategyComand;
     }
 
-    public abstract void runCommand(List<? extends AbstractModel<?>> list);
+    public abstract void runCommand(List<? super AbstractModel<?>> list);
 
     public String getFillStrategyName() {
         return fillStrategyName;

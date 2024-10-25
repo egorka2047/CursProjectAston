@@ -6,7 +6,7 @@ public class UserInputInt {
     public static Integer validUserInput(){
         Integer userInput;
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите номер нужной команды: ");
+        System.out.print("Введите номер нужной команды: ");
         while (true){
             if (scanner.hasNextInt()) return scanner.nextInt();
             else{
