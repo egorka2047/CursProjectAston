@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc9eaa1b-0958-4fce-a4a2-3a9265fec3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/AbstractModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,17 +21,22 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature_itriium" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/egorka2047/CursProjectAston.git",
-    "accountId": "55456e1e-49bf-4a50-99b8-ee30c212b2b7"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/egorka2047/CursProjectAston.git&quot;,
+    &quot;accountId&quot;: &quot;55456e1e-49bf-4a50-99b8-ee30c212b2b7&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2nnoEkwdA4cIXRh7ufLecvmeaQR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,6 +49,10 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/eshpa/OneDrive/Документы/курсы/astonTestProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "C:/Users/eshpa/IdeaProjects/CursProjectAston/src/main/java/org/apache/maven/archetypes/Main.java"
   }
 }]]></component>
@@ -66,5 +66,16 @@
       <updated>1729618093655</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
