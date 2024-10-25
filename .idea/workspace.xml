@@ -7,15 +7,9 @@
     <list default="true" id="dc9eaa1b-0958-4fce-a4a2-3a9265fec3de" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/AbstractModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/AbstractModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/Bus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/sort/NaturalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/sort/NaturalSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/sort/strategySort/BusSortWithStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/sort/strategySort/BusSortWithStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/sort/strategySort/SortWithStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/sort/strategySort/SortWithStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/sort/strategySort/StudentSotWithStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/sort/strategySort/StudentSortWithStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/sort/strategySort/UserSortWithStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/sort/strategySort/UserSortWithStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +89,9 @@
       <workItem from="1729670724177" duration="5435000" />
       <workItem from="1729677194977" duration="536000" />
       <workItem from="1729678250234" duration="26498000" />
-      <workItem from="1729746087406" duration="3138000" />
+      <workItem from="1729746087406" duration="5128000" />
+      <workItem from="1729792385824" duration="8920000" />
+      <workItem from="1729840012594" duration="6839000" />
     </task>
     <servers />
   </component>
