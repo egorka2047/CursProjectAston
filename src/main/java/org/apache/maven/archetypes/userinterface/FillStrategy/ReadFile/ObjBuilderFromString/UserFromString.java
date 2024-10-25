@@ -19,6 +19,8 @@ public class UserFromString implements ObjBuildFromString<User>{
         String email;
         String password;
 
+        System.out.println(obj);
+
         String[] splitStr = obj.split(" ");
         name = new Scanner(splitStr[3].replace(",", "")).nextLine();
         email = new Scanner(splitStr[5].replace(",", "")).nextLine();
