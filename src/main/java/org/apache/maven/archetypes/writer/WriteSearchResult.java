@@ -14,7 +14,7 @@ import java.util.List;
 
 public class WriteSearchResult extends AbstractFileWriter{
 
-    void write(List<? extends AbstractModel<?>> sortedList, Integer foundIndex) {
+    public void write(List<? extends AbstractModel<?>> sortedList, Integer foundIndex) {
         String[] classNameArr = sortedList.getFirst().getClass().toString().split("\\.");
         String className = classNameArr[classNameArr.length-1];
         this.fileName = className + "Sorted.txt";
