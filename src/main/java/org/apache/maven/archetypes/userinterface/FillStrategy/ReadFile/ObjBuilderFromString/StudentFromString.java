@@ -18,6 +18,8 @@ public class StudentFromString implements ObjBuildFromString<Student>{
         Double avgGrade;
         Integer gradeBookNumber;
 
+        System.out.println(obj);
+
         String[] splitStr = obj.split(" ");
         groupNumber = new Scanner(splitStr[3].replace(",", "")).nextInt();
         avgGrade = new Scanner(splitStr[5].replace(",", "").replace(".", ",")).nextDouble();

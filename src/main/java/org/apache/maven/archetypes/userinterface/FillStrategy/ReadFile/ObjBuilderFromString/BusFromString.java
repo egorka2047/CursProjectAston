@@ -2,6 +2,7 @@ package org.apache.maven.archetypes.userinterface.FillStrategy.ReadFile.ObjBuild
 
 import org.apache.maven.archetypes.classes.Bus;
 import org.apache.maven.archetypes.classes.Student;
+import org.apache.maven.archetypes.validators.BusValidator;
 
 import java.util.Scanner;
 
@@ -19,10 +20,12 @@ public class BusFromString implements ObjBuildFromString<Bus> {
         String model;
         Integer mileage;
 
+        System.out.println(obj);
+
         String[] splitStr = obj.split(" ");
         route = new Scanner(splitStr[3].replace(",", "")).nextInt();
-        model = new Scanner(splitStr[5].replace(",", "")).nextLine();
-        mileage = new Scanner(splitStr[7]).nextInt();
+        model = new Scanner(splitStr[5].replace(",", "")).nextLine() ;
+        mileage =new Scanner(splitStr[7]).nextInt();
 
         return Bus.newBusBuilder().setRoute(route).setModel(model).setMileage(mileage).build();
     }
