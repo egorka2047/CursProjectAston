@@ -1,0 +1,5 @@
+Тип объектов: Student
+Количество объектов: 3
+Student - groupNumber: 1, avgGrade: 1.0, gradeBookNumber: 1
+Student - groupNumber: 2, avgGrade: 2.0, gradeBookNumber: 2
+Student - groupNumber: 3, avgGrade: 3.0, gradeBookNumber: 3

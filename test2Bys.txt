@@ -1,0 +1,13 @@
+Тип объектов: Bus
+Количество объектов: 11
+Bus - route: 1, model: One, mileage: 10
+Bus - route: 2, model: Two, mileage: 20
+Bus - route: 3, model: Three, mileage: 30
+Bus - route: 3, model: Three, mileage: 30
+Bus - route: 3, model: Three, mileage: 30
+Bus - route: 3, model: Three, mileage: 30
+Bus - route: 3, model: Three, mileage: 30
+Bus - route: 3, model: Three, mileage: 30
+Bus - route: 3, model: Three, mileage: 30
+Bus - route: 3, model: Three, mileage: 30
+Bus - route: 3, model: Three, mileage: 30
