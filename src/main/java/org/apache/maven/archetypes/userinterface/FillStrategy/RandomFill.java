@@ -12,6 +12,6 @@ public class RandomFill extends FillStrategy{
     }
 
     @Override
-    public void runCommand(List<? extends AbstractModel<?>> list) {
+    public void runCommand(List<? super AbstractModel<?>> list) {
     }
 }

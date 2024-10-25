@@ -7,5 +7,5 @@ import java.util.List;
 public interface Selectable {
     Integer getComandNumber();
 
-    void runCommand(List<? extends AbstractModel<?>> list);
+    void runCommand(List<? super AbstractModel<?>> list);
 }

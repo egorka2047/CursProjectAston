@@ -11,13 +11,14 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
+import java.util.Optional;
 
 public class CastomFileReader {
 
     static List<String> availableClasses = List.of("Bus", "Student", "User");
-    static List<? extends ObjBuildFromString> availableObjBuilder = List.of(new BusFromString(), new StudentFromString(), new UserFromString());
+    static List<? extends ObjBuildFromString<?>> availableObjBuilder = List.of(new BusFromString(), new StudentFromString(), new UserFromString());
 
-    public static void read(File file, List<? extends AbstractModel<?>> userObjectList){
+    public static void read(File file, List<? super AbstractModel<?>> userObjectList){
 
         try(FileReader fileReader = new FileReader(file); BufferedReader bufferedReader = new BufferedReader(fileReader)){
             String[] firstLine = bufferedReader.readLine().split(" ");
@@ -27,7 +28,14 @@ public class CastomFileReader {
                 throw new IOException("Файл не подходит для считывания данных");
             }
             Integer numObj = Integer.parseInt(secondLine[secondLine.length-1]);
-
+            Optional<? extends ObjBuildFromString> objBuilderOpt = availableObjBuilder.stream().filter(el -> el.getObjClass().equals(objClass)).findFirst();
+            if (objBuilderOpt.isPresent()){
+                ObjBuildFromString<? extends AbstractModel<?>> objBuilder = objBuilderOpt.get();
+                for (int i = 0; i < numObj; i++) {
+                    userObjectList.add(objBuilder.buildObj(bufferedReader.readLine()));
+                }
+            }
+            else throw new IOException("Файл не подходит для считывания данных");
         }
         catch (IOException ex){
             System.out.println(ex.getMessage());
