@@ -18,7 +18,7 @@ import java.util.List;
 
 public class SortedDataWriter extends AbstractFileWriter {
 
-    void write(List<? extends AbstractModel<?>> sortedList, String sotrName) {
+    public void write(List<? extends AbstractModel<?>> sortedList, String sotrName) {
 
         String[] classNameArr = sortedList.getFirst().getClass().toString().split("\\.");
         String className = classNameArr[classNameArr.length-1];
