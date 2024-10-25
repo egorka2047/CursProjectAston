@@ -11,7 +11,7 @@ public class ExitProg extends  FillStrategy{
     }
 
     @Override
-    public void runCommand(List<? extends AbstractModel<?>> list) {
+    public void runCommand(List<? super AbstractModel<?>> list) {
         System.out.println("Программа была завершена");
         System.exit(0);
     }

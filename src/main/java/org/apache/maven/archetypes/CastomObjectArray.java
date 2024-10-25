@@ -7,11 +7,12 @@ import org.apache.maven.archetypes.writer.SortedDataWriter;
 import org.apache.maven.archetypes.writer.UserDataWriter;
 import org.apache.maven.archetypes.writer.WriteSearchResult;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class CastomObjectArray {
-    private List<? extends AbstractModel<?>> userObjectList;
-    private List<? extends AbstractModel<?>> sortedObjectList;
+    private final List<AbstractModel<?>> userObjectList = new ArrayList<>();
+    private final List<AbstractModel<?>> sortedObjectList = new ArrayList<>();
 
     private final FillStrategy fillStrategy;
 

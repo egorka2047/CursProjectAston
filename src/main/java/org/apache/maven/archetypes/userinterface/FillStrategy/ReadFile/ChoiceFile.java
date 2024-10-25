@@ -4,7 +4,7 @@ import java.io.File;
 import java.util.Scanner;
 
 public interface ChoiceFile {
-    default void setFieName(ValidFileFinder fileFinder){
+    static void setFieName(ValidFileFinder fileFinder){
         String fileName;
         Scanner sc = new Scanner(System.in);
 
@@ -22,8 +22,8 @@ public interface ChoiceFile {
         }
     }
 
-    default void setFile(ValidFileFinder fileFinder) {
-        fileFinder.setFieName(fileFinder);
+    static void setFile(ValidFileFinder fileFinder) {
+        setFieName(fileFinder);
         fileFinder.setFile(new File(fileFinder.getCatalog() +"\\" + fileFinder.getFileName()));
     }
 }

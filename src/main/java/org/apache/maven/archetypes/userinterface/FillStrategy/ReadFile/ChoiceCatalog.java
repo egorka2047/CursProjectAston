@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public interface ChoiceCatalog {
 
-    static void setCatalog(ValidFileFinder fileFinder){
+     static void setCatalog(ValidFileFinder fileFinder){
         String catalog;
         Scanner sc = new Scanner(System.in);
 
