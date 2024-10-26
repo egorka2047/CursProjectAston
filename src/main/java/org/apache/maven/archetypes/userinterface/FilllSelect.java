@@ -5,7 +5,7 @@ import org.apache.maven.archetypes.userinterface.FillStrategy.*;
 import java.util.List;
 
 public class FilllSelect implements UserSelect{
-    static List<FillStrategy> fillStrategies = List.of(new ManualFill(), new FillFromFile(), new RandomFill(), new ExitProg());
+    static List<FillStrategy> fillStrategies = List.of(new ManualFill(), new FillFromFile(), new RandomFill(), new ExitProg(), new FillFromStandartFile());
 
     @Override
     public Selectable startSelect() {

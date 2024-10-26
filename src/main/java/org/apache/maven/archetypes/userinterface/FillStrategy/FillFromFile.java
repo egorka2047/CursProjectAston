@@ -12,11 +12,11 @@ import java.util.List;
 public class FillFromFile extends FillStrategy{
 
     public FillFromFile() {
-        super("Чтение данных из файла", 2);
+        super("Чтение данных из файла пользователя", 2);
     }
 
     @Override
-    public void runCommand(List<? super AbstractModel<?>> list) {
+    public void runCommand(List<? super AbstractModel> list) {
         ValidFileFinder validFileFinder = new ValidFileFinder();
         ChoiceCatalog.setCatalog(validFileFinder);
         ChoiceFile.setFile(validFileFinder);
