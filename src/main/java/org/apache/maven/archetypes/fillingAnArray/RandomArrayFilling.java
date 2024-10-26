@@ -5,6 +5,7 @@ import org.apache.maven.archetypes.classes.AbstractModel;
 import org.apache.maven.archetypes.classes.Bus;
 import org.apache.maven.archetypes.classes.Student;
 import org.apache.maven.archetypes.classes.User;
+import org.apache.maven.archetypes.fillingAnArray.DataArray;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,20 +13,18 @@ import java.util.Random;
 
 public class RandomArrayFilling {
     // создаёт лист объектов. принимает число (количество создаваемых объектов)
-    public  static List<AbstractModel> createList(AbstractModel abstractModel, int arraySize){
-        List<AbstractModel> list = new ArrayList<>();
+    public  static void createList(List<? super AbstractModel> list, int arraySize, Integer objType){
 
         for (int i = 0; i < arraySize; i++) {
-            if (abstractModel.getClass() == Student.class) {
+            if (objType.equals(2)) {
                 list.add(getStudent());
-            } if (abstractModel.getClass() == Bus.class){
+            } if (objType.equals(1)){
                 list.add(getBus());
-            }if (abstractModel.getClass() == User.class){
+            }if (objType.equals(3)){
                 list.add(getUser());
             }
         }
 
-return list;
     }
 
     // создаёт рандомный экземпляр автобуса

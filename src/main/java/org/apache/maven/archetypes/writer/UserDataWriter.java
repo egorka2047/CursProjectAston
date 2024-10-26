@@ -19,7 +19,7 @@ import java.util.Scanner;
 
 public class UserDataWriter extends AbstractFileWriter implements ChoosCatalog {
 
-    public void write(List<? extends AbstractModel<?>> list) {
+    public void write(List<? extends AbstractModel> list) {
 
         try (FileWriter dataWriter = new FileWriter(this.getFile())){
             String[] classNameArr = list.getFirst().getClass().toString().split("\\.");

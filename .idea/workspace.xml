@@ -4,13 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc9eaa1b-0958-4fce-a4a2-3a9265fec3de" name="Changes" comment="Работает заполнение">
-      <change afterPath="$PROJECT_DIR$/StudentSorted.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/testMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/writer/testMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2Bys.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testBus.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testUserData.txt" afterDir="false" />
+    <list default="true" id="dc9eaa1b-0958-4fce-a4a2-3a9265fec3de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/FillFromStandartFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ManualInput/ManualBusInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ManualInput/ManualStudentInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ManualInput/ManualUserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListOfUser" beforeDir="false" afterPath="$PROJECT_DIR$/ListOfUser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/CastomObjectArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/CastomObjectArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/DataArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/DataArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/FillingAnArrayFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/FillingAnArrayFromFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/ManualFillingOfTheArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/ManualFillingOfTheArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/RandomArrayFilling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/RandomArrayFilling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ExitProg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ExitProg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/FillFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/FillFromFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/FillStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/FillStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ManualFill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ManualFill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/RandomFill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/RandomFill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/Selectable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/Selectable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FilllSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FilllSelect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/writer/SortedDataWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/writer/SortedDataWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/writer/UserDataWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/writer/UserDataWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/writer/WriteSearchResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/writer/WriteSearchResult.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +44,16 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Mixail Zateev &lt;​fanerka1992@yandex.ru&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature_Zverev_Al" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -60,22 +87,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.apache.maven.archetypes.writer.testMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testMain.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.maven-archetype-quickstart [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.maven-archetype-quickstart [package].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature__Zverev__Al&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/eshpa/OneDrive/Документы/курсы/astonTestProject&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/eshpa/IdeaProjects/CursProjectAston/src/main/java/org/apache/maven/archetypes/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.org.apache.maven.archetypes.writer.testMain.executor": "Run",
+    "Application.testMain.executor": "Run",
+    "Maven.maven-archetype-quickstart [clean].executor": "Run",
+    "Maven.maven-archetype-quickstart [package].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "feature__Zverev__Al__org.apache.maven.archetypes.fillingAnArray;",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/eshpa/OneDrive/Документы/курсы/astonTestProject",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/eshpa/IdeaProjects/CursProjectAston/src/main/java/org/apache/maven/archetypes/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.apache.maven.archetypes.Main" />
@@ -154,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729848239299</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3 вида заполнения массива(ручной, из файла.рандом)&#10;Созданы 3 файла откуда происходит чтение и заполнение массива">
+      <option name="closed" value="true" />
+      <created>1729926990397</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729926990397</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +206,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/feature_aldem2" />
+                        <option value="feature_Zverev_Al" />
                       </list>
                     </value>
                   </entry>
@@ -185,7 +220,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Реализован выбора способа заполнения через пользовательский ввод&#10;Начат ввод данных из файла&#10;Набросок главного класса, содержащего неотсортированный и отсортированный массивы данных" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализован выбора способа заполнения через пользовательский ввод&#10;Начат ввод данных из файла&#10;Набросок главного класса, содержащего неотсортированный и отсортированный массивы данных" />
+    <MESSAGE value="3 вида заполнения массива(ручной, из файла.рандом)&#10;Созданы 3 файла откуда происходит чтение и заполнение массива" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 вида заполнения массива(ручной, из файла.рандом)&#10;Созданы 3 файла откуда происходит чтение и заполнение массива" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -198,6 +234,11 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="11" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/RandomArrayFilling.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

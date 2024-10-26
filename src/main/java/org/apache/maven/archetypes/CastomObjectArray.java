@@ -11,8 +11,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CastomObjectArray {
-    private final List<AbstractModel<?>> userObjectList = new ArrayList<>();
-    private final List<AbstractModel<?>> sortedObjectList = new ArrayList<>();
+    private final List<AbstractModel> userObjectList = new ArrayList<>();
+    private final List<AbstractModel> sortedObjectList = new ArrayList<>();
 
     private final FillStrategy fillStrategy;
 

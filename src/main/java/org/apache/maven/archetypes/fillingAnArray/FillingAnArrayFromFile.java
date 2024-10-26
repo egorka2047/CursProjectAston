@@ -4,6 +4,7 @@ import org.apache.maven.archetypes.classes.AbstractModel;
 import org.apache.maven.archetypes.classes.Bus;
 import org.apache.maven.archetypes.classes.Student;
 import org.apache.maven.archetypes.classes.User;
+import org.apache.maven.archetypes.userinterface.FillStrategy.UserInputInt;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -26,13 +27,22 @@ public class FillingAnArrayFromFile {
         return    new Scanner(file);
 }
  // Создаёт лист объектов
-        public static List<AbstractModel> getArrayOjects(AbstractModel T) throws FileNotFoundException {
+        public static void getArrayOjects(List<? super AbstractModel> list) throws FileNotFoundException {
 
-            List<AbstractModel> list = new ArrayList<>();
+            Integer objType;
+            while(true){
+                System.out.println("Список каких объектов хотите создать ?\n" +
+                        "1) Bus\n" +
+                        "2) Student\n" +
+                        "3) User\n");
+                objType = UserInputInt.validUserInput();
+                if (List.of(1,2,3).contains(objType)) break;
+                else System.out.println("Указанного номера объекта не существует, пожалуйста, повторите ввод");
+            }
 
-            if (T.getClass() == Student.class) {
+            if (objType.equals(2)) {
                 System.out.println("Student");
-                Scanner scanner = createFile(T);
+                Scanner scanner = new Scanner(new File("ListOfStudents"));
                 while (scanner.hasNextLine()) {
 
                     // Создаётся массив из строк (убираем "," ,сепоратор " "
@@ -48,9 +58,9 @@ public class FillingAnArrayFromFile {
                 }
                 scanner.close();
 
-            }if (T.getClass() == Bus.class){
+            }if (objType.equals(1)){
                 System.out.println("Bus");
-                Scanner scanner = createFile(T);
+                Scanner scanner =  new Scanner(new File("ListOfBus"));
 
                 while (scanner.hasNextLine()) {
                     String[] splitLinesArray = scanner.nextLine().replace(",", " ").split(" ");
@@ -62,9 +72,9 @@ public class FillingAnArrayFromFile {
                 }
                       scanner.close();
 
-            } if (T.getClass() == User.class) {
+            } if (objType.equals(3)) {
                 System.out.println("User");
-                Scanner scanner = createFile(T);
+                Scanner scanner = new Scanner(new File("ListOfUser"));
 
                 while (scanner.hasNextLine()) {
                     String[] splitLinesArray = scanner.nextLine().replace(",", " ").split(" ");
@@ -77,7 +87,6 @@ public class FillingAnArrayFromFile {
                 }
                 scanner.close();
             }
-            return list;
         }
 
 }
