@@ -1,10 +1,11 @@
 package org.apache.maven.archetypes.search;
 
 import org.apache.maven.archetypes.classes.User;
+import org.apache.maven.archetypes.search.universalsearch.BinarySearch;
 
 import java.util.List;
 
-public class BinarySearchUser implements BinarySearch<User> {
+public class BinarySearchUser implements BinarySearchInterface<User> {
     @Override
     public int binarySearch(List<User> users, User target) {
         int left = 0;

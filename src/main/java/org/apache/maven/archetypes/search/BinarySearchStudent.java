@@ -4,7 +4,7 @@ import org.apache.maven.archetypes.classes.Student;
 
 import java.util.List;
 
-public class BinarySearchStudent implements BinarySearch<Student> {
+public class BinarySearchStudent implements BinarySearchInterface<Student> {
     @Override
     public int binarySearch(List<Student> students, Student target) {
         int left = 0;

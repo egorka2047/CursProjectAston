@@ -4,7 +4,7 @@ import org.apache.maven.archetypes.classes.Bus;
 
 import java.util.List;
 
-public class BinarySearchBus implements BinarySearch<Bus> {
+public class BinarySearchBus implements BinarySearchInterface<Bus> {
 
     @Override
     public int binarySearch(List<Bus> buses, Bus target) {
