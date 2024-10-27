@@ -33,12 +33,12 @@ public class RandomFill extends FillStrategy{
             Scanner sc = new Scanner(System.in);
             if (sc.hasNextInt()){
                 numObj = sc.nextInt();
-                sc.close();
                 break;
             }
             else System.out.println("Введите целочисленное значение");
         }
         RandomArrayFilling.createList(list,numObj,objType);
+        System.out.println(list);
 
     }
 }

@@ -17,7 +17,6 @@ public class FillFromStandartFile extends FillStrategy{
             FillingAnArrayFromFile.getArrayOjects(list);
         } catch (FileNotFoundException e) {
             System.out.println("К сожалению на вашем компьютере нет стандартных файлов с данными");
-            System.exit(0);
         }
 
     }

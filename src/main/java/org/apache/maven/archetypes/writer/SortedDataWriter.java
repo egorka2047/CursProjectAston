@@ -19,7 +19,9 @@ import java.util.List;
 public class SortedDataWriter extends AbstractFileWriter {
 
     public void write(List<? extends AbstractModel> sortedList, String sotrName) {
-
+        if(sortedList.isEmpty()){
+            return;
+        }
         String[] classNameArr = sortedList.getFirst().getClass().toString().split("\\.");
         String className = classNameArr[classNameArr.length-1];
         this.fileName = className + "Sorted.txt";
@@ -46,6 +48,7 @@ public class SortedDataWriter extends AbstractFileWriter {
         catch (IOException e) {
             throw new RuntimeException(e);
         }
+        System.out.println("Отсортированный массив сохранен.");
     }
 
     @Override

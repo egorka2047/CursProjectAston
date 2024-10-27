@@ -58,6 +58,7 @@ public class ManualBusInput {
                         else System.out.println("Введите целочисленное значение");
                     }
                     ManualFillingOfTheArray.addToListBus(list,route,model,mileage);
+                    break;
                 }
                 case 2:
                     conditions = false;

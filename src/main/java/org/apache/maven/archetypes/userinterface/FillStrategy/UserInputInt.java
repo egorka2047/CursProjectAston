@@ -8,7 +8,10 @@ public class UserInputInt {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите номер нужной команды: ");
         while (true){
-            if (scanner.hasNextInt()) return scanner.nextInt();
+            if (scanner.hasNextInt()){
+                userInput = scanner.nextInt();
+                return userInput;
+            }
             else{
                 scanner.nextLine();
                 System.out.print("введите числовое значение команды: ");

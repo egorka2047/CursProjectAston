@@ -31,7 +31,7 @@ public class RandomArrayFilling {
     private static Bus getBus(){
         int ingexRouteBusArray = (int) (Math.random()*10); // рандом от 0 до 10
         int ingexModelBusArray = (int) (Math.random()*5); // рандом от 0 до 5
-        int randomMileageBus = (int) (Math.random()*100);   // рандом от 0 до 100
+        int randomMileageBus = (int) (Math.random()*999999+1);   // рандом от 0 до 100
 
         Bus bus = Bus.newBusBuilder().
                 setRoute(DataArray.routeBusArray[ingexRouteBusArray])   // данные из массива  DataArray  по индексу
@@ -58,11 +58,12 @@ public class RandomArrayFilling {
         int indexNameUserArray = (int) (Math.random()*DataArray.nameUserArray.length);
 
         int ingexEmailUserArray = (int) (Math.random()* DataArray.emailUserArray.length);
-        char[] array = new char[7];
-        int rand;
         Random r = new Random();
-        for (int i = 0; i< 7; i++) {
-            rand = r.nextInt(127) + 1;
+        int passLength = r.nextInt(5)+5;
+        char[] array = new char[passLength];
+        int rand;
+        for (int i = 0; i< passLength; i++) {
+            rand = r.nextInt(79) + 47;
             array[i] = (char)rand;
         }
         String randomPassword = new  String(array);     // рандомный пароль из символов

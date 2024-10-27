@@ -61,6 +61,7 @@ public class ManualUserInput {
                         else System.out.println("Ведите непустую строку");
                     }
                     ManualFillingOfTheArray.addToListUser(list,name,email,password);
+                    break;
                 }
                 case 2:
                     conditions = false;

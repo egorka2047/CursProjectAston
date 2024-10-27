@@ -5,7 +5,7 @@
     <file url="file://$PROJECT_DIR$/ListOfStudents" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/ListOfUser" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/TestMain.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/TestMain.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
 </project>

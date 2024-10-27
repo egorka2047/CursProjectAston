@@ -59,6 +59,7 @@ public class ManualStudentInput {
                         else System.out.println("Введите целочисленное значение");
                     }
                     ManualFillingOfTheArray.addToListStudent(list,groupNumber,avgGrade,gradeBookNumber);
+                    break;
                 }
                 case 2:
                     conditions = false;

@@ -20,7 +20,10 @@ import java.util.Scanner;
 public class UserDataWriter extends AbstractFileWriter implements ChoosCatalog {
 
     public void write(List<? extends AbstractModel> list) {
-
+        if(list.isEmpty()){
+            System.out.println("Передан пустой массив объектов!\nСперва выполните ввод данных!");
+            return;
+        }
         try (FileWriter dataWriter = new FileWriter(this.getFile())){
             String[] classNameArr = list.getFirst().getClass().toString().split("\\.");
             dataWriter.write(String.format("Тип объектов: %s\nКоличество объектов: %d\n", classNameArr[classNameArr.length-1], list.size()));
@@ -29,6 +32,7 @@ public class UserDataWriter extends AbstractFileWriter implements ChoosCatalog {
                 dataWriter.write(o.toString());
                 dataWriter.write("\n");
             }
+
         //До исключение дело не дойдёт, поскольку в методах setCatalog и setFileName требуется, чтобы каталог сущестовал,
         //в него можно было записывать файлы
         //и имя файла было не занято
@@ -36,6 +40,7 @@ public class UserDataWriter extends AbstractFileWriter implements ChoosCatalog {
         catch (IOException e) {
             throw new RuntimeException(e);
         }
+        System.out.println("Исходный массив сохранен.");
     }
 
     public void setFieName(){

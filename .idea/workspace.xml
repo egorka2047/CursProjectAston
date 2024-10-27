@@ -5,8 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc9eaa1b-0958-4fce-a4a2-3a9265fec3de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/ConsoleOpen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/search/InputSearchObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/SortSelect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_10_2024_15_25__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_10_2024_15_25__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_10_2024_12_12__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_10_2024_12_12__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_10_2024_14_35__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_10_2024_14_35__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentSorted.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/CastomObjectArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/CastomObjectArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/AbstractModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/AbstractModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/classes/Bus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/RandomArrayFilling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/RandomArrayFilling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/search/BinarySearchBus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/search/BinarySearchBus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/search/BinarySearchStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/search/BinarySearchStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/search/BinarySearchUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/search/BinarySearchUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/search/universalsearch/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/search/universalsearch/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/sort/NaturalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/sort/NaturalSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/FillFromStandartFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/FillFromStandartFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ManualInput/ManualBusInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ManualInput/ManualBusInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ManualInput/ManualStudentInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ManualInput/ManualStudentInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ManualInput/ManualUserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ManualInput/ManualUserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/RandomFill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/RandomFill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/UserInputInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/UserInputInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/testMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/testMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/writer/SortedDataWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/writer/SortedDataWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/writer/UserDataWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/writer/UserDataWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/writer/WriteSearchResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/writer/WriteSearchResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/writer/testMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/writer/testMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testUserData.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +100,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ConsoleOpen.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.org.apache.maven.archetypes.writer.testMain.executor": "Run",
     "Application.testMain.executor": "Run",
@@ -76,16 +108,30 @@
     "Maven.maven-archetype-quickstart [package].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature__itriium",
+    "git-widget-placeholder": "feature__Zverev__Al__org.apache.maven.archetypes.fillingAnArray;",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/eshpa/OneDrive/Документы/курсы/astonTestProject",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/eshpa/IdeaProjects/CursProjectAston/src/main/java/org/apache/maven/archetypes/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/eshpa/IdeaProjects/CursProjectAston/src/main/java/org/apache/maven/archetypes/Main.java",
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.apache.maven.archetypes.Main" />
+  <component name="RunManager" selected="Application.ConsoleOpen">
+    <configuration name="ConsoleOpen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.apache.maven.archetypes.ConsoleOpen" />
+      <module name="maven-archetype-quickstart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.maven.archetypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.apache.maven.archetypes.main" />
       <module name="maven-archetype-quickstart" />
       <extension name="coverage">
         <pattern>
@@ -125,7 +171,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ConsoleOpen" />
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.org.apache.maven.archetypes.writer.testMain" />
         <item itemvalue="Application.testMain" />
       </list>
@@ -194,7 +241,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="feature_Zverev_Al" />
+                        <option value="origin/feature_mrrobot1440" />
                       </list>
                     </value>
                   </entry>
@@ -223,11 +270,6 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="11" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/RandomArrayFilling.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

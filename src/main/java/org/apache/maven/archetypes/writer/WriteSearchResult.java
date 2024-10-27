@@ -15,6 +15,10 @@ import java.util.List;
 public class WriteSearchResult extends AbstractFileWriter{
 
     public void write(List<? extends AbstractModel> sortedList, Integer foundIndex) {
+        if(sortedList.isEmpty()){
+            System.out.println("Передан пустой массив объектов!\nСперва выполните ввод данных!");
+            return;
+        }
         String[] classNameArr = sortedList.getFirst().getClass().toString().split("\\.");
         String className = classNameArr[classNameArr.length-1];
         this.fileName = className + "Sorted.txt";
@@ -26,7 +30,7 @@ public class WriteSearchResult extends AbstractFileWriter{
                             Дата и время сохранения: %s
                             Тип объектов: %s
                             Количество объектов: %d
-                            Метод сортировки: NaturalSort
+                            Метод сортировки: Сортировка в натуральном порядке
                             """
                     ,DateTimeGetter.getDataTime(), className, sortedList.size()));
 

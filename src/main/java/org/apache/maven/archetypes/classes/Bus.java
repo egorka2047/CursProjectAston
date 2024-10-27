@@ -5,8 +5,8 @@ import org.apache.maven.archetypes.validators.BusValidator;
 import java.util.InputMismatchException;
 
 public class Bus extends AbstractModel<Bus> {
-    {
-        this.sortWithStrategy = new BusSortWithStrategy();
+    static {
+        sortWithStrategy = new BusSortWithStrategy();
     }
     private Integer route;
     private String model;

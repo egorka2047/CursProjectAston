@@ -4,7 +4,7 @@ import org.apache.maven.archetypes.sort.strategySort.SortWithStrategy;
 import java.util.List;
 
 public abstract class AbstractModel<T> implements Comparable<T>{
-    public SortWithStrategy sortWithStrategy;
+    public static SortWithStrategy sortWithStrategy;
     public void strategySort(List<? extends AbstractModel<T>> list) {
         sortWithStrategy.strategySort(list);
     }
