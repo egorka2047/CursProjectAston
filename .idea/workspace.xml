@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc9eaa1b-0958-4fce-a4a2-3a9265fec3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/FillFromStandartFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ManualInput/ManualBusInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ManualInput/ManualStudentInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ManualInput/ManualUserInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListOfUser" beforeDir="false" afterPath="$PROJECT_DIR$/ListOfUser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/CastomObjectArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/CastomObjectArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/DataArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/DataArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/FillingAnArrayFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/FillingAnArrayFromFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/ManualFillingOfTheArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/ManualFillingOfTheArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/RandomArrayFilling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/RandomArrayFilling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/fillingAnArray/TestMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ExitProg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ExitProg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/FillFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/FillFromFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/FillStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/FillStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ManualFill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/ManualFill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/RandomFill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/RandomFill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/Selectable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FillStrategy/Selectable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FilllSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/userinterface/FilllSelect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/writer/SortedDataWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/writer/SortedDataWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/writer/UserDataWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/writer/UserDataWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/writer/WriteSearchResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/maven/archetypes/writer/WriteSearchResult.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +25,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="UnderAlex &lt;z-underalex@yander.ru&gt;" />
         <option value="Mixail Zateev &lt;​fanerka1992@yandex.ru&gt;" />
       </list>
     </option>
@@ -96,7 +76,7 @@
     "Maven.maven-archetype-quickstart [package].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature__Zverev__Al__org.apache.maven.archetypes.fillingAnArray;",
+    "git-widget-placeholder": "feature__itriium",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/eshpa/OneDrive/Документы/курсы/astonTestProject",
     "nodejs_package_manager_path": "npm",
@@ -189,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729926990397</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Начальный выбор заполнения&#10;Работает все, кроме ранлома (не знаюпочему)">
+      <option name="closed" value="true" />
+      <created>1730025081097</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730025081097</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +209,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Реализован выбора способа заполнения через пользовательский ввод&#10;Начат ввод данных из файла&#10;Набросок главного класса, содержащего неотсортированный и отсортированный массивы данных" />
     <MESSAGE value="3 вида заполнения массива(ручной, из файла.рандом)&#10;Созданы 3 файла откуда происходит чтение и заполнение массива" />
-    <option name="LAST_COMMIT_MESSAGE" value="3 вида заполнения массива(ручной, из файла.рандом)&#10;Созданы 3 файла откуда происходит чтение и заполнение массива" />
+    <MESSAGE value="Начальный выбор заполнения&#10;Работает все, кроме ранлома (не знаюпочему)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Начальный выбор заполнения&#10;Работает все, кроме ранлома (не знаюпочему)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
