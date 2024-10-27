@@ -23,7 +23,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>org.apache.maven.archetypes.ConsoleOpen</mainClass>
+                            <mainClass>org.apache.maven.archetypes.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
