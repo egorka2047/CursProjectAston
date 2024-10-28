@@ -42,6 +42,19 @@ public class UserValidator {
                 "@outlook.com",
                 "@yahoo.com"
         );
+
+        if (!email.contains("@")){
+            System.out.println("The entered value does not satisfy the following conditions:\n"
+                    + "Email should end with "
+                    + "@gmail.com, @yandex.ru, @mail.ru, @bk.ru, @live.com, @rambler.ru, @outlook.com, @yahoo.com\n"
+                    + "The length of the user name in Email should be from 2 to 30 characters "
+                    + "(only letters, digits and the dot symbol \n(the dot symbol isn't allowed at "
+                    + "the beginning and end of user name in Email))\n"
+                    + "------------------------------------------------------------\n"
+                    + "Enter the correct Email manually:");
+            return userEmailValidate(new Scanner(System.in).next());
+        }
+
         String userName = email.trim().substring(0, email.trim().indexOf('@'));
         boolean flag = true;
         if (userName.startsWith(".") || userName.endsWith("."))
