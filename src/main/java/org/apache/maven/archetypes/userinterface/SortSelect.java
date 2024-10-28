@@ -40,7 +40,7 @@ public class SortSelect {
                 String objType = objTypeArr[objTypeArr.length-1];
                 switch (objType){
                     case "Bus":{
-                        o.setSortStrategyName("Кастомная сортировка Bus");
+                        o.setSortStrategyName("Кастомная сортировка Bus (игнорируются автобусы с нечетным номером маршрута)");
                         List<Bus> busList = new ArrayList<>(list.stream().map(el -> (Bus)el).<Bus>toList());
                         new BusSortWithStrategy().strategySort(busList);
                         list.clear();
@@ -48,7 +48,7 @@ public class SortSelect {
                         break;
                     }
                     case "Student":{
-                        o.setSortStrategyName("Кастомная сортировка Student");
+                        o.setSortStrategyName("Кастомная сортировка Student (игнорируются студенты с нечетным номером студенческого билета)");
                         List<Student> studentList = new ArrayList<>(list.stream().map(el -> (Student) el).<Bus>toList());
                         new StudentSortWithStrategy().strategySort(studentList);
                         list.clear();
@@ -56,7 +56,7 @@ public class SortSelect {
                         break;
                     }
                     case "User":{
-                        o.setSortStrategyName("Кастомная сортировка User");
+                        o.setSortStrategyName("Кастомная сортировка User (нет числовых полей, сортируется в натуральном порядке)");
                         List<User> userList = new ArrayList<>(list.stream().map(el -> (User)el).<Bus>toList());
                         new UserSortWithStrategy().strategySort(userList);
                         list.clear();
